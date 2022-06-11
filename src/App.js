@@ -67,12 +67,11 @@ function App() {
       prevState.map((t) => (t.id === data.id ? (t = data) : t))
     );
   };
-
+  
   const handleDelete = async (id) => {
     await fetch(API + "/todos/" + id, {
       method: "DELETE",
     });
-
     setTodos((prevState) => prevState.filter((todo) => todo.id !== id));
   };
 
@@ -83,7 +82,10 @@ function App() {
   return (
     <div className="App">
       <div className="todo-header">
-        <h1>React Todo</h1>
+        <div className="logo">
+          <img className="logoImg" src="./logo.png" alt="icon" width="25%" />
+        </div>
+        <h1>React To do</h1>
       </div>
       <div className="form-todo">
         <h2>Insira sua próxima tarefa:</h2>
@@ -113,7 +115,6 @@ function App() {
         </form>
       </div>
       <div className="list-todo">
-        <h2>Lista de tarefas:</h2>
         {todos.length === 0 && <p>Não há tarefas!</p>}
         {todos.map((todo) => (
           <div className="todo" key={todo.id}>
