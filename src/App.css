@@ -8,7 +8,7 @@
 }
 
 .logoImg {
-  margin-top: 30px;
+  margin-top: 32px;
   animation: logo-img-spin infinite 2s linear;
 }
 
@@ -61,6 +61,7 @@ h1 {
 }
 
 .form-control input {
+  text-align: center;
   height: 0.8em;
   border: none;
   border-radius: 8px;
