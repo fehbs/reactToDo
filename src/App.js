@@ -105,7 +105,7 @@ function App() {
             <label htmlFor="time">Duração:</label>
             <input
               type="text"
-              placeholder="Tempo estimado (em horas)"
+              placeholder="Tempo estimado"
               onChange={(e) => setTime(e.target.value)}
               value={time}
               required
