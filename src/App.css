@@ -1,5 +1,5 @@
 .App {
-  width: 70%;
+  width: 60%;
   margin: 3em auto;
   background-color: #1a1a1a;
   border-radius: 8px;
@@ -7,7 +7,7 @@
 }
 
 .logoImg {
-  margin-top: 10px;
+  margin-top: 28px;
   animation: logo-img-spin infinite 2s linear;
 }
 
@@ -27,6 +27,7 @@
 
 h1 {
   margin-top: 10px;
+  font-size: 2.5em;
 }
 
 .form-todo {
@@ -36,13 +37,13 @@ h1 {
 }
 
 .form-todo h2 {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .form-todo h2,
 .list-todo h2 {
   text-align: center;
-  margin-top: -10px;
+  margin-top: -4px;
 }
 
 .form-control {
@@ -54,17 +55,19 @@ h1 {
 .form-control label {
   text-align: center;
   font-weight: bold;
-  font-size: 0.7em;
+  font-size: 0.9em;
   margin-bottom: 0.4em;
 }
 
 .form-control input {
+  height: 0.8em;
   border: none;
   border-radius: 8px;
   background-color: #4734343a;
   padding: 1.5em;
   color: #dfdfdf;
   text-align: center;
+  font-size: 1.1em;
 }
 
 .form-control input:focus {
@@ -81,6 +84,8 @@ input[type="submit"] {
   cursor: pointer;
   border: none;
   margin-top: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 input:hover[type="submit"] {
@@ -89,12 +94,12 @@ input:hover[type="submit"] {
 }
 
 input:active[type="submit"] {
-  background-color: #1a1a1a;
+  background-color: #000000;
 }
 
 .list-todo {
   padding: 0 1em 2em;
-  margin: -0.5em 2em;
+  margin: -0.4em 2em;
 }
 
 .list-todo h2 {
@@ -105,7 +110,7 @@ input:active[type="submit"] {
 
 .list-todo p {
   text-align: center;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
 .todo {
@@ -116,11 +121,17 @@ input:active[type="submit"] {
   background: rgb(45, 149, 218);
   border-radius: 8px;
   color: rgb(240, 236, 232);
-  margin-top: 5px;  
+  margin-top: 0.6em; 
+  padding-bottom: 0.6em;
+}
+
+.todo:hover {
+  background: #000000;
 }
 
 .todo h3 {
   margin-top: 10px;
+  font-size: 1.5em;
 }
 
 .todo-done {
@@ -133,17 +144,17 @@ input:active[type="submit"] {
 .todo p {
   text-align: left;
   font-style: italic;
-  font-size: 0.7em;
+  font-size: 0.9em;
   margin-bottom: 0.8em;
 }
 
 .todo svg {
-  font-size: 1.2em;
+  font-size: 1.4em;
   cursor: pointer;
   padding: 0px 20px;
   transition: 0.5s;
 }
 
 .todo svg:hover {
-  color: #333;
+  color: rgba(148, 212, 255, 0.957);
 }
