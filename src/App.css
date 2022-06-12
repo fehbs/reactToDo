@@ -1,5 +1,5 @@
 .App {
-  width: 90%;
+  width: 70%;
   margin: 3em auto;
   background-color: #1a1a1a;
   border-radius: 8px;
@@ -62,7 +62,7 @@ h1 {
   border: none;
   border-radius: 8px;
   background-color: #4734343a;
-  padding: 0.8em;
+  padding: 1.5em;
   color: #dfdfdf;
   text-align: center;
 }
@@ -77,7 +77,7 @@ input[type="submit"] {
   display: block;
   width: 100%;
   border-radius: 8px;
-  padding: 1em;
+  padding: 2em;
   cursor: pointer;
   border: none;
   margin-top: 15px;
