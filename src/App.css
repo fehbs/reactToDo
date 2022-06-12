@@ -1,6 +1,7 @@
 .App {
   width: 60%;
-  margin: 0.9em auto;
+  margin: 0.6em auto;
+  padding: 0px;
   background-color: #1a1a1a;
   border-radius: 8px;
   color: rgb(179, 218, 244);
