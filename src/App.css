@@ -1,6 +1,6 @@
 .App {
   width: 60%;
-  margin: 0.9em auto;
+  margin: 1em auto;
   padding: 0px;
   background-color: #1a1a1a;
   border-radius: 8px;
@@ -27,7 +27,7 @@
 }
 
 h1 {
-  margin-top: 10px;
+  margin-top: 12px;
   font-size: 2.5em;
 }
 
