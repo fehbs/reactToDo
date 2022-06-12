@@ -7,7 +7,7 @@
 }
 
 .logoImg {
-  margin-top: 15px;
+  margin-top: 18px;
   animation: logo-img-spin infinite 2s linear;
 }
 
@@ -68,6 +68,7 @@ h1 {
   color: #dfdfdf;
   text-align: center;
   font-size: 1.1em;
+  margin: 3px;
 }
 
 .form-control input:focus {
@@ -110,7 +111,7 @@ input:active[type="submit"] {
 
 .list-todo p {
   text-align: center;
-  margin-top: -5px;
+  margin-top: 0px;
 }
 
 .todo {
