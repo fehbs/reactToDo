@@ -1,13 +1,13 @@
 .App {
   width: 60%;
-  margin: 0.1em auto;
+  margin: 0.2em auto;
   background-color: #1a1a1a;
   border-radius: 8px;
   color: rgb(179, 218, 244);
 }
 
 .logoImg {
-  margin-top: 28px;
+  margin-top: 15px;
   animation: logo-img-spin infinite 2s linear;
 }
 

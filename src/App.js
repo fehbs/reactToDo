@@ -83,7 +83,7 @@ function App() {
     <div className="App">
       <div className="todo-header">
         <div className="logo">
-          <img className="logoImg" src="./logo.png" alt="icon" width="25%" />
+          <img className="logoImg" src="./logo.png" alt="icon" width="18%" />
         </div>
         <h1>React To do</h1>
       </div>
