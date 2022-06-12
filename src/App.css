@@ -67,8 +67,11 @@ h1 {
   background-color: #4734343a;
   padding: 1.5em;
   color: #dfdfdf;
+}
+
+.form-control input::placeholder {
+  font-size: 1.2em;
   text-align: center;
-  font-size: 1.1em;
 }
 
 .form-control input:focus {
@@ -85,7 +88,7 @@ input[type="submit"] {
   cursor: pointer;
   border: none;
   margin-top: 15px;
-  font-size: 0.9em;
+  text-transform: uppercase;
   font-weight: bold;
   text-align: center;
 }

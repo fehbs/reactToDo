@@ -111,7 +111,7 @@ function App() {
               required
             />
           </div>
-          <input type="submit" value="Criar Tarefa" />
+          <input class="btn" type="submit" value="Criar Tarefa" />
         </form>
       </div>
       <div className="list-todo">
