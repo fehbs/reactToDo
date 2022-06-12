@@ -67,6 +67,7 @@ h1 {
   background-color: #4734343a;
   padding: 1.5em;
   color: #dfdfdf;
+  margin: 2px;
 }
 
 .form-control input::placeholder {
