@@ -1,6 +1,6 @@
 .App {
   width: 60%;
-  margin: 0.6em auto;
+  margin: 0.8em auto;
   padding: 0px;
   background-color: #1a1a1a;
   border-radius: 8px;
@@ -8,7 +8,7 @@
 }
 
 .logoImg {
-  margin-top: 24px;
+  margin-top: 28px;
   animation: logo-img-spin infinite 2s linear;
 }
 
