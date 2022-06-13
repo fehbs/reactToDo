@@ -67,7 +67,7 @@ function App() {
       prevState.map((t) => (t.id === data.id ? (t = data) : t))
     );
   };
-  
+
   const handleDelete = async (id) => {
     await fetch(API + "/todos/" + id, {
       method: "DELETE",
@@ -83,15 +83,14 @@ function App() {
     <div className="App">
       <div className="todo-header">
         <div className="logo">
-          <img className="logoImg" src="./logo.png" alt="icon" width="18%" />
+          <img className="logoImg" src="./logo.png" alt="icon" width="20%" />
         </div>
         <h1>React To do</h1>
       </div>
       <div className="form-todo">
-        <h2>Insira sua próxima tarefa:</h2>
+        <h2>Insira sua tarefa:</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-control">
-            <label htmlFor="title">O que você vai fazer?</label>
             <input
               type="text"
               name="title"
@@ -102,7 +101,6 @@ function App() {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="time">Duração:</label>
             <input
               type="text"
               placeholder="Tempo estimado"
@@ -111,7 +109,7 @@ function App() {
               required
             />
           </div>
-          <input class="btn" type="submit" value="Criar Tarefa" />
+          <input type="submit" placeholder="Criar Tarefa" />
         </form>
       </div>
       <div className="list-todo">
@@ -119,7 +117,7 @@ function App() {
         {todos.map((todo) => (
           <div className="todo" key={todo.id}>
             <h3 className={todo.done ? "todo-done" : ""}>{todo.title}</h3>
-            <p>Duração: {todo.time}h</p>
+            <p>Duração: {todo.time}</p>
             <div className="actions">
               <span onClick={() => handleDone(todo)}>
                 {!todo.done ? <BsBookmarkCheck /> : <BsBookmarkCheckFill />}
